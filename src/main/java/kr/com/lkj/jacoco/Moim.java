@@ -1,4 +1,4 @@
-package kr.com.lkj;
+package kr.com.lkj.jacoco;
 
 public class Moim {
 
@@ -11,7 +11,7 @@ public class Moim {
             return false;
         }
 
-        if(numberOfCurrentEnrollment < maxNumberOfAttendees) {
+        if(numberOfCurrentEnrollment == maxNumberOfAttendees) {
             return false;
         }
 
